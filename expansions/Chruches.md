@@ -1,0 +1,16 @@
+# Churches
+
+Motivation: provide a mechanic for multiple players to coordinate and prevent a leading player from winning quickly - but only if the other players can actually work together
+
+- during setup, place one card for every player in a group off to the side, one of which is face-up while all others are face-down. these cards are part of the church and are not treated as being part of the deck or market (it is suggested to arrange these cards to roughly resemble a cross)
+- during the game, there is one new action called “tithe”, where a player selects one of their stall cards and moves it off to the side into a separate pile of “tithes”. these tithed cards are kept off to the side until the next church phase and cannot be recovered or used in any other way, but they are kept face-up for all to see.
+- at each market phase, as soon as all stalls are flipped face-up, if there is a jack and a queen anywhere in the stalls or public market with different suits, then a special church phase is activated immediately.
+    - at the beginning of a church phase, the public market cards a moved to the side as they will not be needed, and the church cards are flipped face up and moved to the middle of the table. Similarly, each player can move their stalls to the side, but they may not pick any of the stall cards up.
+    - any cards that players have tithed using the “tithe” action are now placed face-up in front of them as a tithing pool for all to see
+    - now each player in score order, may voluntarily add at least one card from their hand or stall to their tithing pool.
+        - score order counts the number of apparent VPs each player has based on the buildings (open buildings count as 0), with number of coins as first tie breaker, total number of cards (stall + hand) as second, and herald order as fourth tie breaker
+    - once all players have made their voluntary tithes, each players tithe is summed up (by value), and if there is a single-player that tithed less than all other players, then they are compelled to continue tithing cards from their hand or stall until they have tithed at least as much as the next lowest tithe or, if they run out of cards to tithe, they must select one of their buildings and downgrade it and discard the one of the cards from the downgrade.
+    - now all tithed cards are discarded into the discard pile
+    - the players, in tithing order (for which the first criterion is the total value of the tithe (if a downgrade occurred that is automatically the max tithe), ties are resolved in score order), select one of the church cards in the middle of the table and give it to another player, such that each player receives exactly one church card.
+    - cards are drawn from the deck to form the new church cards for the next church phase.
+    - lastly, all players may supplement their stalls with any cards they have in their hand (in herald order). after which, the regular market phase begins, except that for every market phase one a single church phase can occur, so after supplementing, the market phase begins regardless of if there is still a jack and queen present.
