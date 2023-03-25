@@ -1,7 +1,7 @@
 Aristocracy
 ===========
 
-*Aristocrats don't work. They own land, make money off their estate, and play cards in their chateau.*
+> *Aristocrats don't work. They own land, make money off their estate, and play cards in their château. Can you handle that?*
 
 Created by Felix Leeb over the course of the Summer of 2018 (and beyond). Dedicated to Lauren Martini.
 
