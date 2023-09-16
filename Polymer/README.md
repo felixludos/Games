@@ -1,6 +1,6 @@
 # Polymer
 
-A casual social negotiation game created in September 2023.
+A casual social negotiation game created in September 2023 by Felix Leeb.
 
 Here are the [rules](Polymer.md).
 
