@@ -12,11 +12,6 @@ Check out the full rules here: [J'Accuse](J'Accuse.md).
 The gameplay shares some similarities with [Secret Hitler](https://www.secrethitler.com/), 
 but gives players more flexibility in their roles, and thus more opportunities for organic cooperation (and potential betrayal).
 
-
-## Feedback
-
-Feedback is always very welcome! Please open an issue (or even a pull request) if you have any suggestions.
-
 ## Acknowledgements
 
 This game could not have been created without the help of my friends, family, and colleagues who generously provided their 
