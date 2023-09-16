@@ -21,10 +21,5 @@ Aside from the [base game](Aristocracy.md), there are currently several expansio
 
 Currently, the rules for the expansions are still only notes, rather than properly formatted rules.
 
-## Feedback
-
-Feedback is always very welcome! Please open an issue (or even a pull request) if you have any suggestions.
-
-
 
 
