@@ -24,7 +24,7 @@ Once a trade has been executed, it can only be undone if both players agree.
 
 ### Loaning
 
-Optionally, you can allow players to temporarily loan out some of their cards to either neighbor, provided that they get sufficient cards back by the end of the game. During the game, a player may at any time “call in” their loan, at which point the debtor must immediately return the same number of cards to the loaner (or at least as many cards as they hold) before executing any other trades.
+Players can temporarily loan out some of their cards to either neighbor, provided that they get sufficient cards back by the end of the game. During the game, a player may at any time “call in” their loan, at which point the debtor must immediately return the same number of cards to the loaner (or at least as many cards as they hold) before executing any other trades.
 
 ## Scoring
 
