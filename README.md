@@ -13,6 +13,8 @@ Here are some games I've created over the years. Most of the games should be rel
 | [DVX](DVX/README.md)                                | An abstract strategy board game                  | ⭐️         | 10-20 min    | 2       | Published  | April 2015     |
 | [European Conquest](European%20Conquest/README.md)  | A strategy board game                            | ⭐️⭐️      | 20-40 min    | 2       | Unbalanced | Spring 2012    |
 
+Games with the status "Functional" are still under development, but are mostly complete and should at most require a little bit of balancing.
+
 
 ## Feedback
 
