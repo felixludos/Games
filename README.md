@@ -20,3 +20,7 @@ Games with the status "Functional" are still under development, but are mostly c
 
 Feedback is always very welcome! Please open an issue (or even a pull request) if you have any suggestions.
 
+
+## Licensing
+
+All games here are licensed under [Creative Commons BY–NC–SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). That means you have to give us credit for the original, you're not allowed to profit from it commercially in any way, and you have to license it under the exact same CC license. You also can't submit anything to an app store or anything like that.
