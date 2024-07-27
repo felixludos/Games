@@ -56,3 +56,11 @@ Motivation: encourage visitation and build fake buildings. Encourage coordinatio
             - all rumor cards are discarded
 - tea time/party - occasionally (maybe after each jack phase, or between each phase), all players can exchange spies and/or rumors or recruit new spies
     - mechanics might be similar to the ball
+
+# Additional Balancing
+
+- when downgrading (either by force or by choice) a farm, you must choose only between the farms of yours that have the fewest rumors attached. if there are multiple buildings with the same number of rumors, you may choose any of them.
+  - this rule does not apply when downgrading an estate or chateau
+  - when downgrading by choice, you must downgrade a non-farm before any farm with at least one rumor
+
+
