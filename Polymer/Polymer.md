@@ -36,21 +36,21 @@ A casual social negotiation game created in September 2023.
 ## **Scoring**
 1. **End of Timer**: When the timer reaches 0, trading stops, and each player must have the same number of cards they started with (so all loans must be repaid immediately).
 
-2. **Patterns**:
+2. **Patterns**
    - A **group**: At least two cards of the same rank.
    - A **sequence**: At least two consecutive cards of the same suit. (Ranks loop: 2 follows A and A follows K.)
    - Each card may belong to only one pattern.
 
-3. **Score Calculation**:
+3. **Score Calculation**
    - **Primary Score**: (Length of your longest pattern) × (Sum of your neighbors' longest patterns).
    - **Bonus Points**: For every additional pattern in your hand, add (length - 1) to your score.
 
-4. **Example**:
+4. **Example**
    - Your patterns: Sequence of 4, sequence of 3, two pairs.
    - Neighbors' longest patterns: Group of 5, sequence of 6.
    - Your score: \( 4 × (5 + 6) + (3-1) + (2-1) + (2-1) = 48 \).
 
-5. **Tiebreakers**:
+5. **Tiebreakers**
    - 1st: Highest rank in your longest pattern (K is highest).
    - 2nd: Higher of the two longest-pattern ranks among your neighbors.
    - 3rd: Lower of the two longest-pattern ranks among your neighbors.
