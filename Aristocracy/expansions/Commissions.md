@@ -18,3 +18,8 @@ Commissions
     - firstly, if the player has a card of rank matching the address card of any of their buildings, that building counts as one additional victory point (only if the building is valid, and each building can receive at most one such bonus VP)
     - secondly, any of your remaining commissions can be appended to one of your journeys (provided the journeys expansion is in play)
 
+
+# Clarifications
+
+- if you have multiple (complete) buildings with the same address card, you may use up to 1 commission card for each of those buildings (so this is the only way for multiple commissions of the same rank to be used for the scoring bonus)
+
