@@ -1,5 +1,7 @@
 # Polymer
 
+<!-- begin-content-flag -->
+
 A casual social negotiation game.
 
 - Required Materials: 2 packs of french playing cards, 1 timer
@@ -38,4 +40,4 @@ For example, if a player has a sequence of length 4, a sequence of length 3 and 
 
 In the rare case of a tie, the first tiebreaker is the highest rank card in the player's longest pattern (the highest possible rank is a K for this purpose). The second and third tiebreaker is the higher and lower of the two ranks in the player's neighbors' longest patterns, respectively.
 
-
+<!-- end-content-flag -->
