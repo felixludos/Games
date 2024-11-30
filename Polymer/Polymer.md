@@ -2,42 +2,57 @@
 
 <!-- begin-content-flag -->
 
-A casual social negotiation game.
+A casual social negotiation game created in September 2023.
 
-- Required Materials: 2 packs of french playing cards, 1 timer
-- 5-15 players
-- Takes about 10 minutes
+- **Players**: 5-15 (recommended 6-10)
+- **Materials**: two packs of french playing cards, 1 timer
+- **Duration**: Takes about 15 minutes
 
-## Setup
+## **Setup**
+1. **Seating**: Players sit in a circle with a neighbor on their left and right.
+2. **Cards**: Shuffle all cards and deal the following number per player:
+   - 5 players: 20 cards each
+   - 6 players: 17 cards each
+   - 7 players: 14 cards each
+   - 8 players: 13 cards each
+   - 9 players: 11 cards each
+   - 10 players: 10 cards each
+   - 11 players: 9 cards each
+   - 12 players: 8 cards each
+   - 13 players: 8 cards each
+   - 14 players: 7 cards each
+   - 15 players: 6 cards each
+3. **Timer**: Set a countdown timer for 10 minutes and make it visible to all players.
+4. **Initial Hands**: Players do not look at their cards until the timer starts.
 
-Players should sit such that each player has a neighbor to their left and right.
+## **Gameplay**
 
-Shuffle all the cards (without jokers) and deal the same number to each player depending on the number of players: 5 -> 20, 6 -> 17, 7 -> 14, 8 -> 13, 9 -> 11, 10 -> 10, 11 -> 9, 12 -> 8, 13 -> 8, 14 -> 7, 15 -> 6
+**Start the Timer**: When the timer begins, players may look at their cards.
 
-Players should not look at their cards until the timer starts. Now setup a countdown timer to 10 minutes. The timer should be visible to all players.
+**Trading**: Players may freely trade their cards but only with their immediate neighbors to their left and right. Specifically, there are two types of trades:
+- **Swap**: Exchange the same number of cards between players.
+- **Loan**: Exchange different number of cards, but the debtor must return the same number by the end of the game. The loaner may "call in" their loan at any time, in which case the debtor must return the same number of cards before making further swaps. However, debtors may choose what cards to return.
 
-## Gameplay
+## **Scoring**
+1. **End of Timer**: When the timer reaches 0, trading stops, and each player must have the same number of cards they started with (so all loans must be repaid immediately).
 
-When all players are ready, start the timer, at which point all players can look at their cards.
+2. **Patterns**:
+   - A **group**: At least two cards of the same rank.
+   - A **sequence**: At least two consecutive cards of the same suit. (Ranks loop: 2 follows A and A follows K.)
+   - Each card may belong to only one pattern.
 
-Players can freely (asynchronously) trade any of their cards with their immediate neighbors (to their left and right only), however they must always keep the same total number of cards.
+3. **Score Calculation**:
+   - **Primary Score**: (Length of your longest pattern) × (Sum of your neighbors' longest patterns).
+   - **Bonus Points**: For every additional pattern in your hand, add (length - 1) to your score.
 
-Once a trade has been executed, it can only be undone if both players agree.
+4. **Example**:
+   - Your patterns: Sequence of 4, sequence of 3, two pairs.
+   - Neighbors' longest patterns: Group of 5, sequence of 6.
+   - Your score: \( 4 × (5 + 6) + (3-1) + (2-1) + (2-1) = 48 \).
 
-### Loaning
-
-Players can temporarily loan out some of their cards to either neighbor, provided that they get sufficient cards back by the end of the game. During the game, a player may at any time “call in” their loan, at which point the debtor must immediately return the same number of cards to the loaner (or at least as many cards as they hold) before executing any other trades.
-
-## Scoring
-
-Once the timer reaches 0, all players must stop trading and now hold the same number of cards as they started with.
-
-Each player shows all the patterns in their hand, where a pattern can be either a group or a sequence. A group is a set of at least two cards with the same rank. A sequence is a set of at least two cards with the same suit and consecutive ranks. Each card can be used in at most one group or sequence. The ranks of the cards: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K (and loops around, so A can both precede 2 and follow K).
-
-The player's final score is: (number of cards in their longest pattern) * (sum of the lengths of their immediate neighbors' longest patterns) + (sum of the (lengths-1) of all other patterns in the players hand)
-
-For example, if a player has a sequence of length 4, a sequence of length 3 and two pairs, and their neighbors' longest patterns are a group of length 5 and sequence of length 6, then their score is: 4 * (5+6) + (3-1) + (2-1) + (2-1) = 48.
-
-In the rare case of a tie, the first tiebreaker is the highest rank card in the player's longest pattern (the highest possible rank is a K for this purpose). The second and third tiebreaker is the higher and lower of the two ranks in the player's neighbors' longest patterns, respectively.
+5. **Tiebreakers**:
+   - 1st: Highest rank in your longest pattern (K is highest).
+   - 2nd: Higher of the two longest-pattern ranks among your neighbors.
+   - 3rd: Lower of the two longest-pattern ranks among your neighbors.
 
 <!-- end-content-flag -->
