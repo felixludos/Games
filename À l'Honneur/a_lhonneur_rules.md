@@ -5,6 +5,8 @@
 - **Players**: 2-6 (recommended 4)
 - **Duration**: Takes about 15-20 minutes
 
+# Game Rules
+
 ## Requirements
 
 - 2x52 packs of regular (french) playing cards (without jokers)
