@@ -2,7 +2,7 @@
 
 <!-- begin-content-flag -->
 
-A casual social negotiation game created in September 2023.
+A casual social negotiation game created in September 2023 with the help of several colleaguse at the IMPRS - Thank you for your enthusiasm and feedback!
 
 - **Players**: 5-15 (recommended 6-10)
 - **Materials**: two packs of french playing cards, 1 timer
