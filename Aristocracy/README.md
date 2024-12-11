@@ -17,9 +17,9 @@ Aside from the [base game](Aristocracy.md), there are currently several expansio
 | [Commissions](expansions/Commissions.md) | Players begin with secret commissions which can be used for a big payouts or extra victory points at the end of the game.             | Jan 2022   | Completed        |
 | [Churches](expansions/Churches.md)       | Show how pious you are by titheing more than your opponents - after all, you wouldn't want anyone to accuse you of heresy?            | Jan 2022   | Completed        |
 | [Spies & Rumors](expansions/Spies.md)    | Gossip is in the air and spies lurk around every corner. With a few little rumors, a minor scandal might just spiral into utter ruin. | Apr 2022   | Unbalanced       |
-| Peasants                                 | As all proper nobility know, the peasants yearn for an honest day's work - just don't forget to feed them!                            | Feb 2023   | Not Released Yet |
+| [Peasants](expansions/Peasants.md)                                 | As all proper nobility know, the peasants yearn for an honest day's work - just don't forget to feed them!                            | Feb 2023   | Completed |
 
-Currently, the rules for the expansions are still only notes, rather than properly formatted rules.
+Currently, the rules for most of the expansions are still only notes, rather than fully formatted rules.
 
 
 
