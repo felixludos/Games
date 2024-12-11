@@ -30,17 +30,33 @@ It is only a player’s turn when their timer is running (just like in chess).
 2. You may play any number of cards face up on the table to form new patterns and/or add any number of cards to existing face-up patterns. For any card you use from the discard pile, you must also take all cards above it.
 You may also break and rearrange any patterns on the table (no matter which player originally played the pattern) (much like in Rummikub).
 Note, that any face up cards you use during your turn cannot be picked up into your hand or discarded. Any face up card you do not form into a valid pattern becomes your “orphan” card. All of your orphans are placed face up in front of you. Other players may use your orphans to form their own pattern during their turn, but as long as they don’t take them, they stay with you.
-1. Optionally, you may discard one of the cards in your hand by placing it on top of the discard pile. Generally, the cards in the discard pile should be splayed such that all players can see not just the top card but several (or ideally all) discarded cards beneath in case they want to claim them.
-2. Lastly, to end your turn stop your timer so that the timer of the next player starts. At this point, you should get the 5 seconds added to your timer. And the timer of the next player (in clockwise order) begins and that player begins their turn. Other players should monitor the patterns you rearrange and play from your hand, and if they notice any invalid patterns after you end your turn, then all cards in the invalid pattern become your orphans.
+3. Optionally, you may discard one of the cards in your hand by placing it on top of the discard pile. Generally, the cards in the discard pile should be splayed such that all players can see not just the top card but several (or ideally all) discarded cards beneath in case they want to claim them.
+4. Lastly, to end your turn stop your timer so that the timer of the next player starts. At this point, you should get the 5 seconds added to your timer. And the timer of the next player (in clockwise order) begins and that player begins their turn. Other players should monitor the patterns you rearrange and play from your hand, and if they notice any invalid patterns after you end your turn, then all cards in the invalid pattern become your orphans.
 
 ### Card Patterns
 
-There are two different ways to form patterns: sequences and groups. 
+A pattern is technically always a set of three cards which form either a sequence or a group.
 
 - **Sequences**: All cards in a sequence must have the **same suit** with sequentially changing ranks, where looping back around from K → A → 2 **is** allowed.
 - **Groups**: All cards in a group must have the **same rank with all different suits**.
 
-Crucially, patterns may overlap to form "multi-patterns", as long as every card in the multi-pattern is part of a valid pattern (sequence or group) using the cards immediately before/after it.
+However, you may also form "multi-patterns" which are made up of multiple individual patterns that partially overlap. For a multi-pattern to be valid, each card in the multi-pattern must form a valid pattern with each of its adjacent cards. Note that the all adjacent cards need not be part of the same pattern (see example 3)
+
+Some examples of valid multi-patterns are:
+1. 2♠, 3♠, 4♠, 5♠ - a sequence of 4, equivalent to two overlapping sequences.
+2. 6♠, 6♥, 6♦, 6♣ - a group of 4, equivalent to two overlapping groups.
+3. K♠, A♠, 2♠, 3♠ - a sequence of 4, equivalent to two overlapping sequences (note that K → A → 2 is allowed).
+4. 4♠, 5♠, 6♠, 6♥, 6♦ - an overlapping sequence and a group.
+5. 6♠, 5♠, 4♠, 5♠, 6♠ - two overlapping sequences of 3
+6. 7♠, 7♥, 7♦, 7♠ - eventhough there are two 7♠, they are part of different groups (7♠, 7♦, 7♠) and (7♠, 7♥, 7♠).
+7. 8♠, 8♦, 8♣, 8♠, 8♦ - a group of 5, equivalent to two overlapping groups.
+8. K♠, Q♠, J♠, J♥, J♦, Q♦, K♦ - two sequences with a group in the middle (compare this to the invalid example 3)
+
+Some examples of invalid multi-patterns are:
+1. 7♠, 7♦, 7♠ - the two 7♠ are part of the same group, so this is invalid.
+2. 7♠, 7♥, 7♠, 7♦ - the two 7♠ are part of the same group (the first in the multi-pattern), so this is invalid. Note that the only difference to valid example 4 above is the order of the cards, so order matters!
+3. K♠, Q♠, J♠, J♦, Q♦, K♦ - the two sequences are not overlapping (specifically the J♠, J♦ don't form a valid pattern with any adjacent cards), but if you separate them into two independent sequences (remember once cards are face up, they can freely be rearranged), the two sequences are valid.
+
 
 ## Game End
 
