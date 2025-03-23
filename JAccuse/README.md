@@ -7,7 +7,7 @@ A devilishly tricky social deduction card game for 5-12 players created by Felix
 
 The game requires two decks of regular (French) playing cards, and a pile of fungible tokens to keep track of experience points.
 
-Check out the full rules here: [J'Accuse](J'Accuse.md).
+Check out the full rules here: [J'Accuse](JAccuse.md).
 
 The gameplay shares some similarities with [Secret Hitler](https://www.secrethitler.com/), 
 but gives players more flexibility in their roles, and thus more opportunities for organic cooperation (and potential betrayal).
