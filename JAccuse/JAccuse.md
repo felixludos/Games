@@ -49,11 +49,11 @@ It is recommended to have a pile of counters to keep track of each players’ ex
 
 ## Generation Setup
 
-The game is played over a number of “generations”, the total number of which should be agreed upon beforehand. It’s required to play an even number of generations and the more generations are played, the more strategic the game becomes. It is recommended to play 4, but 2 generations also works for a quick game.
+The game is played over a number of “generations”, the total number of which should be agreed upon beforehand. Generally playing a single generation is fine, but optimally, you can play with multiple generations. This is especially recommended when playing with the “Generational Trauma” variant (see below).
 
 1. At the beginning of each generation shuffle all the influence cards and deal 5-7 influence cards to each player face down (depending on the total number of players, see the guide above). If there is a influence cards remaining (i.e. when playing with 5 or 13 players), place it on the table face down to form a discard pile.
 
-2. Each player may freely look at the influence cards dealt to them (which makes up their hand), and may, if they choose, also show their hand cards to other players. 
+2. Each player may freely look at the influence cards dealt to them (which makes up their hand), but may not intentionally show them to other players at any time. (Note that players may freely talk about their cards, including lying about them, but generally this should be done openly at the table so that all players that pay attention can hear).
    - All players start with an equal number of influence cards in their hand, but over time some players may run out of influence cards before others. Once a player runs out of influence cards, they may no longer vote in elections or get accused, so they are effectively out for the rest of the generation. However, their membership card should be left face down and until the generation is over for scoring.
 
 3. Now each player selects one of their influence cards to place face down in front of them. This card is called the “membership” card of the player, and should be placed in between the player’s two network cards.
@@ -62,9 +62,7 @@ The game is played over a number of “generations”, the total number of which
 
 5. The stability of each generation begins at 5.
 
-6. If this is not the first generation, then the side that won the previous generation receives one free policy at the beginning.
-
-7. Finally, the generation begins with an election.
+6. Finally, the generation begins with an election.
 
 ## Gameplay
 
@@ -102,6 +100,30 @@ After that, the president may take one of these actions, as follows:
 
 ### End of Generation
 
+After each generation ends, all players reveal their membership cards and the winning color is recorded. Record the color of each player's membership card for scoring at the end of the game.
+
+Do not reveal or change the network cards yet.
+
+### End of Game
+
+After all generations are played, each player’s network cards are revealed and each player is scored based on whether their network cards are both the same or different colors.
+
+- If both network cards are the same color, the player scores 1 VP per generation where the winning color matched their network cards. Note, that the player's membership card color does not matter for their score.
+- If both network cards are different colors, the player scores 1 VP per generation where the winning color matches their membership card.
+
+Any ties are resolved by who has more experience tokens at the end of the game (remember experience tokens may freely be exchanged between players for favors or as bribes).
+
+
+## Variant: Generational Trauma
+
+This variant primarily changes the scoring of the game to work better for multiple generations. It is strongly recommended to play an even number of generations when using this variant.
+
+There is one small change to the setup of the game. After the first generation, each subsequent generation begins with a free policy of the color that won the previous generation. This policy is passed before the first election of the generation.
+
+Instead of scoring as described above here is how scoring works:
+
+### End of Generation
+
 After each generation ends, all players reveal their membership cards and the winning color is recorded. Each player that has a membership card of the same color as the winning one, receives 1 VP. 
 
 Do not reveal or change the network cards yet.
@@ -115,3 +137,4 @@ After all generations are played, each player’s network cards are revealed and
 Any ties are resolved by who has more experience tokens at the end of the game (remember experience tokens may freely be exchanged between players for favors or as bribes).
 
 <!-- end-content-flag -->
+
